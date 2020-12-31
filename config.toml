@@ -1,4 +1,4 @@
-baseURL = "https://festive-lovelace-2538d6.netlify.app/"
+baseURL = "http://www.mbdtf.xyz/"
 languageCode = "en-us"
 title = "Ink"
 theme = "hugo-ink"
