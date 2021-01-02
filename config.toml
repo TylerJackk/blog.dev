@@ -1,4 +1,4 @@
-baseURL = "http://www.mbdtf.xyz/"
+baseURL = "https://www.mbdtf.xyz/"
 languageCode = "en-us"
 title = "Ink"
 theme = "hugo-ink"
