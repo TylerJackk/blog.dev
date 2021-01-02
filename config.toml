@@ -1,6 +1,6 @@
 baseURL = "https://www.mbdtf.xyz/"
 languageCode = "en-us"
-title = "Ink"
+title = "MBDTF"
 theme = "hugo-ink"
 paginate = 5
 
@@ -14,7 +14,7 @@ googleAnalytics = "UA-142497661-1"
 disqusShortname = "ink-demo"
 
 [params]
-	subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+	subtitle = "blog"
 
 	# Optional 64x64 avatar image.
 	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
@@ -59,6 +59,11 @@ url = "https://github.com/TylerJackk"
 name = "RSS"
 icon = "rss"
 url = "/index.xml"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/toddd01419346"
 
 [taxonomies]
    tag = "tags"
