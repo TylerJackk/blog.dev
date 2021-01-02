@@ -1,6 +1,6 @@
 ---
 title: "git仓库配置单独git config"
-date: 2021-01-02T18:15:58+05:30
+date: 2021-01-02
 description: "git condition include配置仓库git config"
 tags: [git, Coding]
 ---
