@@ -1,9 +1,10 @@
 ---
 title: "git仓库配置单独git config"
 date: 2021-01-02T18:15:58+05:30
-description: ""
+description: "git condition include配置仓库git config"
 tags: [git, Coding]
 ---
+
 # 背景
 
 平时使用git时默认用的是全局配置`.gitconfig`,当同一台电脑上有公司git和个人git时,都会默认使用这个配置,导致其中一个git的commit作者出错
