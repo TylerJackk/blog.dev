@@ -46,6 +46,7 @@ highlightjs = true
 socialmarkup = true
 toc = true
 displayrssicon = false
+rss = true
 
 ## Main Menu
 [[menu.main]]
