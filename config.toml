@@ -1,69 +1,65 @@
-baseURL = "https://www.mbdtf.xyz/"
-languageCode = "en-us"
+## Basic Configuration
+
+baseurl = "https://www.mbdtf.xyz/"
+builddrafts = false
+canonifyurls = false
+languageCode = "zh-cn"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = ""
 title = "MBDTF"
-theme = "hugo-ink"
-paginate = 5
 
-copyright = "© Copyright notice"
+theme = "hugo-goa"
 
-pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "UA-142497661-1"
-disqusShortname = "ink-demo"
+enableRobotsTXT = true
 
+## Site Settings
 [params]
-	subtitle = "blog"
+# author = "Todd"
+intro = "Blog"
+description = "Software Engineer"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
 
-	# Optional 64x64 avatar image.
-	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
 
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
-	
-	featherIconsCDN = true
+## Social Accounts
+[params.social]
+github = "TylerJackk"
+twitter = "toddd01419346"
+email = "liwep.x@gmail.com"
 
-	mode = "auto" # "dark" or "auto"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+## Extras
+[params.extra]
+copyright = "© 2021. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
 
-# Nav.
+## Main Menu
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
 [[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/TylerJackk"
-
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/toddd01419346"
-
-[taxonomies]
-   tag = "tags"
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
