@@ -1,16 +1,16 @@
-+++
-categories = ["git","CI/CD"]
-comments = false
-date = "2019-05-05T15:59:13-04:00"
-draft = false
-showpagemeta = true
-showcomments = true
-slug = ""
-tags = ["git", "CI/CD"]
-title = "Github Project自动部署"
-description = "通过[Circle CI](https://circleci.com/)来实现持续集成/部署,在部署成功任务开始后通过[IFTTT](https://ifttt.com/discover)发消息到手机"
+---
+title: "Github Project自动部署"
+date: 2019-05-05:00:00+08:00
+lastmod: 2019-05-05T00:00:00+08:00
+draft: false
+tags: ["CI/CD", "coding"]
+categories: ["Code"]
 
-+++
+weight: 10
+contentCopyright: MIT
+mathjax: true
+autoCollapseToc: true
+---
 # Init
 
 Circle Ci提供[免费plan](https://github.com/marketplace/circleci/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW45MA==#pricing-and-setup),对github项目有很好的支持,在repo里可以一键接入circle ci.并且支持private repo,这也是选择Circle CI的原因之一
