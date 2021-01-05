@@ -4,7 +4,7 @@ date: 2021-01-02:00:00+08:00
 lastmod: 2021-01-02T00:00:00+08:00
 draft: false
 tags: ["git", "coding"]
-categories: ["Code"]
+categories: ["Tech"]
 
 weight: 10
 contentCopyright: MIT

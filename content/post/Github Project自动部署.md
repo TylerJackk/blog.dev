@@ -4,7 +4,7 @@ date: 2019-05-05:00:00+08:00
 lastmod: 2019-05-05T00:00:00+08:00
 draft: false
 tags: ["CI/CD", "coding"]
-categories: ["Code"]
+categories: ["Tech"]
 
 weight: 10
 contentCopyright: MIT
