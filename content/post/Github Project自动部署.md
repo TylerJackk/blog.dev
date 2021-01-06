@@ -24,7 +24,7 @@ Circle CI提供[免费plan](https://github.com/marketplace/circleci/plan/MDIyOk1
 - Circle CI的配置yaml文件
 - IFTTT event
 
-## Step
+# Step
 
 这里假设项目都已经完成并且有Test Case
 
@@ -111,7 +111,7 @@ workflows:
               only: master
 ```
 
-### 结果
+### 成果
 
 每次有code change只要push到github就可以进行自动化的CI/CD
 
