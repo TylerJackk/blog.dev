@@ -5,6 +5,8 @@ lastmod: 2021-01-02T00:00:00+08:00
 draft: false
 tags: ["git", "coding"]
 categories: ["Tech"]
+keywords: ["gitconfig", "conditional includes", "git"]
+description: "使用gitconfig为不同仓库配置不同author"
 
 weight: 10
 contentCopyright: MIT
