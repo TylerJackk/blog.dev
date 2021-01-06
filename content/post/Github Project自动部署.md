@@ -5,6 +5,8 @@ lastmod: 2019-05-05T00:00:00+08:00
 draft: false
 tags: ["CI/CD", "coding"]
 categories: ["Tech"]
+keywords: ["github", "deploy", "Circle CI", "IFTTT", "CI/CD"]
+description: "deploy your Github Project automatically via CircleCI and send notification when deploy succeed"
 
 weight: 10
 contentCopyright: MIT
@@ -13,7 +15,7 @@ autoCollapseToc: true
 ---
 # Init
 
-Circle Ci提供[免费plan](https://github.com/marketplace/circleci/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW45MA==#pricing-and-setup),对github项目有很好的支持,在repo里可以一键接入circle ci.并且支持private repo,这也是选择Circle CI的原因之一
+Circle CI提供[免费plan](https://github.com/marketplace/circleci/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW45MA==#pricing-and-setup),对github项目有很好的支持,在repo里可以一键接入circle ci.并且支持private repo,这也是选择Circle CI的原因之一
 
 需要的东西:
 

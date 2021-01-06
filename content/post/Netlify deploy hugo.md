@@ -5,6 +5,8 @@ lastmod: 2021-01-05T00:00:00+08:00
 draft: false
 tags: ["hugo", "blog"]
 categories: ["Tech"]
+keywords: ["netify", "hugo", "deploy", "version error", "submodules"]
+description: "Netify deploy Hugo error fixing, version error and checkout submodule error"
 
 weight: 10
 contentCopyright: MIT
