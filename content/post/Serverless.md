@@ -1,6 +1,7 @@
 ---
 title: "什么是Serverless"
 date: 2021-02-21:00:00+08:00
+lastmod: 2021-02-21:00:00+08:00
 draft: false
 tags: ["Serverless", "Chalice", "AWS", "Lambda"]
 categories: ["Tech"]
