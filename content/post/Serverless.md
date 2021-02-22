@@ -1,7 +1,7 @@
 ---
 title: "什么是Serverless"
-date: 2021-02-21:00:00+08:00
-lastmod: 2021-02-21:00:00+08:00
+date: 2021-02-21:12:00+08:00
+lastmod: 2021-02-21:12:00+08:00
 draft: false
 tags: ["Serverless", "Chalice", "AWS", "Lambda"]
 categories: ["Tech"]
@@ -31,8 +31,7 @@ Serverless也就是"无服务架构",是一种软件架构的方式和思路,核
 而Serverless则是为**算力**付费(`(计算费用+请求费用) * 次数`),费用则是按需收取,大致上是根据计算的次数和每次计算消耗的资源收费
 
 *<u>AWS Lambda的收费计算</u>*
-
-![Serverless%20c197a9e7c21746a4bc2ff6d7ae6ec784/Untitled.png](Serverless%20c197a9e7c21746a4bc2ff6d7ae6ec784/Untitled.png)
+![AWS Lambda收费例子](https://raw.githubusercontent.com/TylerJackk/PicBed/master/blog_img/20210221170942.png)
 
 ## 优缺点
 
