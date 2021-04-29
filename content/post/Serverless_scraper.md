@@ -30,7 +30,9 @@ autoCollapseToc: true
 * 调试和部署非常方便
 
 ## 架构
-![Serverless爬虫](https://raw.githubusercontent.com/TylerJackk/PicBed/master/blog_img/20210327221814.png)
+![Serverless爬虫](https://raw.githubusercontent.com/TylerJackk/PicBed/master/blog_img/20210429194743.png)
+[link](https://lucid.app/lucidchart/2f95201b-3da7-4c1f-ba86-704138176759/view)
+
 
 具体拆分了以下几个模块
 * Scraping
